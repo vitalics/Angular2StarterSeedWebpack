@@ -1,0 +1,38 @@
+{
+  "name": "brainhubs",
+  "version": "1.0.0",
+  "scripts": {
+    "prestart": "webpack",
+    "start": "cd build && ws -s index.html",
+    "postinstall": "typings i"
+  },
+  "dependencies": {
+    "@angular/common": "~2.1.0",
+    "@angular/compiler": "~2.1.0",
+    "@angular/core": "~2.1.0",
+    "@angular/forms": "~2.1.0",
+    "@angular/http": "~2.1.0",
+    "@angular/platform-browser": "~2.1.0",
+    "@angular/platform-browser-dynamic": "~2.1.0",
+    "@angular/router": "~3.1.0",
+    "@angular/upgrade": "~2.1.0",
+    "@ngrx/core": "^1.2.0",
+    "@ngrx/store": "2.2.1",
+    "angular-in-memory-web-api": "~0.1.5",
+    "core-js": "^2.4.1",
+    "reflect-metadata": "^0.1.8",
+    "rxjs": "5.0.0-beta.12",
+    "zone.js": "^0.6.25"
+  },
+  "devDependencies": {
+    "awesome-typescript-loader": "^2.2.4",
+    "css-loader": "^0.25.0",
+    "html-loader": "^0.4.4",
+    "html-webpack-plugin": "^2.24.0",
+    "style-loader": "^0.13.1",
+    "typescript": "^2.0.3",
+    "typings": "^1.4.0",
+    "url-loader": "^0.5.7",
+    "webpack": "^1.13.2"
+  }
+}
