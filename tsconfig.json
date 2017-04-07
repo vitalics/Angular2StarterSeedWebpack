@@ -1,15 +1,17 @@
 {
     "compilerOptions": {
         "target": "es5",
+        "allowJs": false,
+        "experimentalDecorators": true,
+        "emitDecoratorMetadata": true,
         "module": "commonjs",
         "moduleResolution": "node",
+        "pretty": true,
         "sourceMap": true,
-        "emitDecoratorMetadata": true,
-        "experimentalDecorators": true,
-        "removeComments": false,
-        "noImplicitAny": false
+        "watch": true
     },
     "exclude": [
-        "./node_modules"
+        "./node_modules",
+        "./vendor"
     ]
 }
